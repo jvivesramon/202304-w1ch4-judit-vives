@@ -19,4 +19,50 @@ html {
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0.313rem 0.4rem #e5e5e5;
+  padding: 1rem;
+}
+
+.header__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.icon-bar::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f0c9";
+}
+
+.deploy-nav-bar {
+  color: var(--text-color);
+  background: none;
+  border: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.section__images {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  padding: 0.5rem;
 }
