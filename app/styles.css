@@ -28,3 +28,10 @@ body {
 .nav-bar-icon {
   font-size: 1.5rem;
 }
+
+.section__images {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
