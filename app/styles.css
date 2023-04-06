@@ -20,3 +20,7 @@ html {
 body {
   margin: 0;
 }
+
+.nav-bar-icon {
+  font-size: 1.5rem;
+}
