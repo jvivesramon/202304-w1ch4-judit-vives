@@ -16,3 +16,7 @@ html {
     sans-serif;
   background-color: var(--white-color);
 }
+
+body {
+  margin: 0;
+}
