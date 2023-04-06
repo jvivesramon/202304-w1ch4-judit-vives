@@ -25,8 +25,18 @@ body {
   border: 0 2rem 0 0;
 }
 
-.nav-bar-icon {
-  font-size: 1.5rem;
+.icon-bar::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f0c9";
+}
+
+.deploy-nav-bar {
+  color: var(--text-color);
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .section__images {
