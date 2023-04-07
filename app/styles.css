@@ -99,6 +99,12 @@ button {
   border-radius: 0 1rem 1rem 1rem;
 }
 
+.box__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section_images {
   display: flex;
   flex-wrap: wrap;
@@ -117,8 +123,7 @@ button {
   height: 15rem;
   border-radius: 1rem;
   background-color: var(--black-color);
-  position: relative;
-  top: 0;
+  position: absolute;
 }
 
 .images_text-hover {
