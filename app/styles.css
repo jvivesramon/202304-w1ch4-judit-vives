@@ -117,18 +117,18 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .hoover-text__style-title {
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.9rem;
   padding: 0.8rem 1.1rem;
-  color: var(--orange-red-color-color);
+  color: var(--orange-red-color);
 }
 
 .hoover-text__style-activity {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   font-weight: 700;
   padding: 0.8rem 1.1rem;
-  color: var(--orange-red-color-color);
+  color: var(--orange-red-color);
 }
