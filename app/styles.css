@@ -110,7 +110,15 @@ button {
   height: 15rem;
   border-radius: 1rem;
   object-fit: cover;
-  padding: 0.5rem;
+}
+
+.images_background-hover {
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+  background-color: var(--black-color);
+  position: relative;
+  top: 0;
 }
 
 .images_text-hover {
@@ -118,6 +126,9 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0.5rem;
+  position: relative;
+  top: 25%;
 }
 
 .hoover-text__style-title {
