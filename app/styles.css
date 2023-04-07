@@ -72,6 +72,13 @@ button {
   padding: 1rem;
 }
 
+.main_text-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main_menu-app-name {
   color: var(--orange-red-color);
   font-weight: 700;
@@ -104,4 +111,24 @@ button {
   border-radius: 1rem;
   object-fit: cover;
   padding: 0.5rem;
+}
+
+.images_text-hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hoover-text__style-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.8rem 1.1rem;
+  color: var(--orange-red-color-color);
+}
+
+.hoover-text__style-activity {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.8rem 1.1rem;
+  color: var(--orange-red-color-color);
 }
